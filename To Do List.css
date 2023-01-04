@@ -1,0 +1,22 @@
+body{
+    background: #ffeff2;
+}
+.hero{
+    width: 100%;
+    padding: 70px 0;
+    background: linear-gradient(45deg,rgb(30, 255, 0),rgb(200, 0, 255));
+    color: #fff;
+}
+h1{
+    font-weight: 700;
+}
+.todo-wrapper{
+    height: 50px;
+}
+.task-btn{
+    background: linear-gradient(45deg,maroon,bisque);
+    color: #fff;
+}
+task-btn:hover{
+    color: #fff;
+}
