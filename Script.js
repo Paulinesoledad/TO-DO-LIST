@@ -1,5 +1,7 @@
-const tasks = JSON.parse(localStorage.getItem('allTasks'));
-// 
+var tasks = JSON.parse(localStorage.getItem('allTasks'));
+if(tasks == null){
+    tasks =[]
+}
 const render = (data)=>{
     const element = document.getElementById("content");
     element.innerHTML ='';
